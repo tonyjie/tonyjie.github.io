@@ -15,13 +15,23 @@ I received my B.E. from Department of Electronic Engineering, Tsinghua Universit
 
 Education
 ------
+Cornell University
+Ph.D. student in Electrical and Computer Engineering, starting from Sep. 2021. 
 
-
+Tsinghua University
+B.E. in Electronic Engineering, Sep. 2016 to Jun. 2020. 
 
 
 Experience
 ------
+Tsinghua University
+Research Assistant in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), Sep. 2020 to Jun. 2021.
 
+Alibaba DAMO Academy
+Research Intern in [Computing Technology Lab](https://damo.alibaba.com/labs/computing-technology), Jul. 2020 to Jan. 2021. 
+
+UCLA
+Research Intern in [VAST Lab](https://vast.cs.ucla.edu/), Jun. 2019 to Sep. 2019. 
 
 Publication
 -----
