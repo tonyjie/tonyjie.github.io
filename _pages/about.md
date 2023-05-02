@@ -10,7 +10,7 @@ redirect_from:
 
 I am currently a second year Ph.D. student in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
 
-My current research interests fall on building novel computer systems and supporting heterogenous computing on novel applications, including computational genomics and machine learning. 
+My current research interests fall on building novel computer systems and supporting heterogeneous computing on novel applications, including computational genomics and machine learning. 
 
 I received my B.E. from Department of Electronic Engineering, Tsinghua University in 2020. I conducted my undergraduate research in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), advised by Prof. [Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang). During the summer 2019, I was an research intern at UCLA [VAST Lab](https://vast.cs.ucla.edu/), advised by Prof. [Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong). 
 
