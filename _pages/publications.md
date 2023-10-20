@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## NPS: A Framework for Accurate Program Sampling Using Graph Neural Network[<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2304.08880.pdf)
+## NPS: A Framework for Accurate Program Sampling Using Graph Neural Network [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2304.08880.pdf)
 Yuanwei Fang, Zihao Liu, Yanheng Lu, Jiawei Liu, **Jiajie Li**, Yi Jin, Jian Chen, Yenkuang Chen, Hongzhong Zheng, Yuan Xie. \
 arXiv:2304.08880, 2023. 
 
