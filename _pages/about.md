@@ -10,7 +10,7 @@ redirect_from:
 
 I am currently a third year Ph.D. student in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
 
-My current research interests fall on building novel computer systems and supporting heterogeneous computing on novel applications, including computational genomics and machine learning. 
+My research interests fall on building novel computer systems and supporting heterogeneous computing on novel applications, including computational genomics and machine learning. My recent focus is to leverage the best performance on GPUs. 
 
 I received my B.E. from Department of Electronic Engineering, Tsinghua University in 2020. I conducted my undergraduate research in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), advised by Prof. [Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang). During the summer 2019, I was an research intern at UCLA [VAST Lab](https://vast.cs.ucla.edu/), advised by Prof. [Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong). 
 
@@ -26,6 +26,9 @@ Education
 
 Experience
 ------
+- NVIDIA
+  - Deep Learning Training Performance Intern in End-to-End Training Performance team (working on [MLPerf-Training](https://mlcommons.org/benchmarks/training/)), May 2024 to Aug 2024. 
+
 - Tsinghua University
   - Research Assistant in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), Sep. 2020 to Jun. 2021.
 
@@ -37,6 +40,14 @@ Experience
 
 Publications
 -----
+Rapid GPU-Based Pangenome Graph Layout \
+**Jiajie Li**, Jan-Niklas Schmelzle, Yixiao Du, Simon Heumos, Andrea Guarracino, Giulia Guidi, Pjotr Prins, Erik Garrison, Zhiru Zhang. \
+**[SC'24]**. Accepted and to be shown! 
+
+Pangenome graph layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10542513/) \
+Simon Heumos, Andrea Guarracino, Jan-Niklas Schmelzle, **Jiajie Li**, Zhiru Zhang, Jörg Hagmann, Sven Nahnsen, Pjotr Prins, Erik Garrison. \
+**[Bioinformatics]**. Accepted and to be shown.
+
 NPS: A Framework for Accurate Program Sampling Using Graph Neural Network [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2304.08880.pdf) \
 Yuanwei Fang, Zihao Liu, Yanheng Lu, Jiawei Liu, **Jiajie Li**, Yi Jin, Jian Chen, Yenkuang Chen, Hongzhong Zheng, Yuan Xie. \
 arXiv:2304.08880, 2023. 

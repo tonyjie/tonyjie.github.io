@@ -5,6 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Rapid GPU-Based Pangenome Graph Layout
+**Jiajie Li**, Jan-Niklas Schmelzle, Yixiao Du, Simon Heumos, Andrea Guarracino, Giulia Guidi, Pjotr Prins, Erik Garrison, Zhiru Zhang. \
+**[SC'24]**. Accepted and to be shown! 
+
+
+## Pangenome graph layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10542513/)
+Simon Heumos, Andrea Guarracino, Jan-Niklas Schmelzle, **Jiajie Li**, Zhiru Zhang, Jörg Hagmann, Sven Nahnsen, Pjotr Prins, Erik Garrison. \
+**[Bioinformatics]**. Accepted and to be shown.
+
+
+
+
 ## NPS: A Framework for Accurate Program Sampling Using Graph Neural Network [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2304.08880.pdf)
 Yuanwei Fang, Zihao Liu, Yanheng Lu, Jiawei Liu, **Jiajie Li**, Yi Jin, Jian Chen, Yenkuang Chen, Hongzhong Zheng, Yuan Xie. \
 arXiv:2304.08880, 2023. 
