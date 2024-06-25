@@ -10,7 +10,7 @@ author_profile: true
 **[SC'24]**. Accepted and to be shown! 
 
 
-## Pangenome graph layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10542513/)
+## Pangenome Graph Layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10542513/)
 Simon Heumos, Andrea Guarracino, Jan-Niklas Schmelzle, **Jiajie Li**, Zhiru Zhang, Jörg Hagmann, Sven Nahnsen, Pjotr Prins, Erik Garrison. \
 **[Bioinformatics]**. Accepted and to be shown.
 
