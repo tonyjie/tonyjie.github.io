@@ -33,7 +33,7 @@ Experience
   - Research Assistant in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), Sep. 2020 to Jun. 2021.
 
 - Alibaba DAMO Academy
-  - Research Intern in [Computing Technology Lab](https://damo.alibaba.com/labs/computing-technology?lang=en), Jul. 2020 to Jan. 2021. 
+  - Research Intern in [Computing Technology Lab](https://damo.alibaba.com/research-areas?language=en), Jul. 2020 to Jan. 2021. 
 
 - UCLA
   - Research Intern in [VAST Lab](https://vast.cs.ucla.edu/), Jun. 2019 to Sep. 2019. 
