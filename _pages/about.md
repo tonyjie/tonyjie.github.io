@@ -26,6 +26,9 @@ Education
 
 Experience
 ------
+- ByteDance
+  - Research Scientist Intern in Machine Learning System team in Seed Foundation, Aug 2024 to Dec 2024. 
+
 - NVIDIA
   - Deep Learning Training Performance Intern in End-to-End Training Performance team (working on [MLPerf-Training](https://mlcommons.org/benchmarks/training/)), May 2024 to Aug 2024. 
 
@@ -44,9 +47,9 @@ Rapid GPU-Based Pangenome Graph Layout \
 **Jiajie Li**, Jan-Niklas Schmelzle, Yixiao Du, Simon Heumos, Andrea Guarracino, Giulia Guidi, Pjotr Prins, Erik Garrison, Zhiru Zhang. \
 **[SC'24]**. Accepted and to be shown! 
 
-Pangenome graph layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10542513/) \
-Simon Heumos, Andrea Guarracino, Jan-Niklas Schmelzle, **Jiajie Li**, Zhiru Zhang, Jörg Hagmann, Sven Nahnsen, Pjotr Prins, Erik Garrison. \
-**[Bioinformatics]**. Accepted and to be shown.
+Pangenome graph layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://doi.org/10.1093/bioinformatics/btae363) \
+Simon Heumos, Andrea Guarracino, Jan-Niklas M Schmelzle, **Jiajie Li**, Zhiru Zhang, Jörg Hagmann, Sven Nahnsen, Pjotr Prins, Erik Garrison. \
+**[Bioinformatics]**. Volume 40, Issue 7, July 2024. 
 
 NPS: A Framework for Accurate Program Sampling Using Graph Neural Network [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2304.08880.pdf) \
 Yuanwei Fang, Zihao Liu, Yanheng Lu, Jiawei Liu, **Jiajie Li**, Yi Jin, Jian Chen, Yenkuang Chen, Hongzhong Zheng, Yuan Xie. \
