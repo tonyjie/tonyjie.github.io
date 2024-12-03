@@ -5,9 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Rapid GPU-Based Pangenome Graph Layout
+## Rapid GPU-Based Pangenome Graph Layout [<i class="fas fa-file-pdf fa-lg"></i>](https://dl-acm-org.proxy.library.cornell.edu/doi/pdf/10.1109/SC41406.2024.00035)[<i class="fab fa-github fa-lg"></i>](https://github.com/pangenome/odgi)
 **Jiajie Li**, Jan-Niklas Schmelzle, Yixiao Du, Simon Heumos, Andrea Guarracino, Giulia Guidi, Pjotr Prins, Erik Garrison, Zhiru Zhang. \
-**[SC'24]**. Accepted and to be shown! 
+**[SC'24]**. The International Conference for High Performance
+Computing, Networking, Storage, and Analysis, 2024. 
 
 
 ## Pangenome Graph Layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://doi.org/10.1093/bioinformatics/btae363)
