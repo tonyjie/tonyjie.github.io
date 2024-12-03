@@ -11,7 +11,7 @@ author_profile: true
 Computing, Networking, Storage, and Analysis, 2024. 
 
 
-## Pangenome Graph Layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://doi.org/10.1093/bioinformatics/btae363)
+## Pangenome Graph Layout by Path-Guided Stochastic Gradient Descent [<i class="fas fa-file-pdf fa-lg"></i>](https://doi.org/10.1093/bioinformatics/btae363) [<i class="fab fa-github fa-lg"></i>](https://github.com/pangenome/odgi)
 Simon Heumos, Andrea Guarracino, Jan-Niklas Schmelzle, **Jiajie Li**, Zhiru Zhang, Jörg Hagmann, Sven Nahnsen, Pjotr Prins, Erik Garrison. \
 **[Bioinformatics]**. Volume 40, Issue 7, July 2024. 
 
