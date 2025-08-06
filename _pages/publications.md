@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+## HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2506.07972) [<i class="fab fa-github fa-lg"></i>](https://github.com/cornell-zhang/heurigym) \
+Hongzheng Chen, Yingheng Wang, Yaohui Cai, Hins Hu, **Jiajie Li**, Shirley Huang, Chenhui Deng, Rongjian Liang, Shufeng Kong, Haoxing Ren, Samitha Samaranayake, Carla P. Gomes, Zhiru Zhang. \
+arXiv:2506.07972, 2025. 
+
 ## Rapid GPU-Based Pangenome Graph Layout [<i class="fas fa-file-pdf fa-lg"></i>](https://dl-acm-org.proxy.library.cornell.edu/doi/pdf/10.1109/SC41406.2024.00035) [<i class="fab fa-github fa-lg"></i>](https://github.com/pangenome/odgi)
 **Jiajie Li**, Jan-Niklas Schmelzle, Yixiao Du, Simon Heumos, Andrea Guarracino, Giulia Guidi, Pjotr Prins, Erik Garrison, Zhiru Zhang. \
 **[SC'24]**. The International Conference for High Performance

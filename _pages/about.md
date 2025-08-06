@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a third year Ph.D. student in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
+I am currently a fourth year Ph.D. student in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
 
 My research interests fall on building novel computer systems and supporting heterogeneous computing on novel applications, including computational genomics and machine learning. My recent focus is to leverage the best performance on GPUs. 
 
@@ -43,6 +43,10 @@ Experience
 
 Publications
 -----
+HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2506.07972) [<i class="fab fa-github fa-lg"></i>](https://github.com/cornell-zhang/heurigym) \
+Hongzheng Chen, Yingheng Wang, Yaohui Cai, Hins Hu, **Jiajie Li**, Shirley Huang, Chenhui Deng, Rongjian Liang, Shufeng Kong, Haoxing Ren, Samitha Samaranayake, Carla P. Gomes, Zhiru Zhang. \
+**[arXiv'25]**. arXiv:2506.07972, 2025. 
+
 Rapid GPU-Based Pangenome Graph Layout [<i class="fas fa-file-pdf fa-lg"></i>](https://dl-acm-org.proxy.library.cornell.edu/doi/pdf/10.1109/SC41406.2024.00035) [<i class="fab fa-github fa-lg"></i>](https://github.com/pangenome/odgi) \
 **Jiajie Li**, Jan-Niklas Schmelzle, Yixiao Du, Simon Heumos, Andrea Guarracino, Giulia Guidi, Pjotr Prins, Erik Garrison, Zhiru Zhang. \
 **[SC'24]**. The International Conference for High Performance
