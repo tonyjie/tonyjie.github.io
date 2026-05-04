@@ -24,7 +24,7 @@ article.page { padding-right: 24px !important; }
 
 .exp-entry {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.5em;
   margin-bottom: 1.8em;
 }
@@ -39,8 +39,9 @@ article.page { padding-right: 24px !important; }
   width: 110px;
   flex: 0 0 110px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 0.3em;
 }
 .exp-entry .exp-logo img {
   max-width: 100%;
