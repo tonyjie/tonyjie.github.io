@@ -13,8 +13,6 @@ I am currently a 5th year Ph.D. candidate in the Department of Electrical and Co
 
 My research focuses on high-performance computing and performance optimization across heterogeneous devices such as GPUs and NPUs, targeting both AI and scientific applications. I am also actively exploring agentic workflows for automating performance engineering and system optimization. 
 
-I received my B.E. from Department of Electronic Engineering, Tsinghua University in 2020. I conducted my undergraduate research in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), advised by Prof. [Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang). During the summer 2019, I was an research intern at UCLA [VAST Lab](https://vast.cs.ucla.edu/), advised by Prof. [Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong). 
-
 
 <style>
 /* Widen the page container and reclaim the reserved right-sidebar space. */
@@ -84,6 +82,50 @@ Education
 <div class="exp-logo"><img src="{{ '/images/logos/tsinghua.svg' | relative_url }}" alt="Tsinghua University"></div>
 </div>
 
+Academic Research
+------
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Cornell University** &nbsp;·&nbsp; *Sep. 2021 – Present*  
+*Ph.D. candidate, [Zhang Research Group](https://zhang.ece.cornell.edu/index.html), [Computer Systems Lab](https://www.csl.cornell.edu/)*  
+*Advisor: [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html)*
+
+*Agentic kernel generation and optimization on heterogeneous devices* — exploring how LLM agents can autonomously generate and tune high-performance kernels across modern accelerators (GPUs, NPUs). 
+
+*Rapid GPU-Based Pangenome Graph Layout* — proposed the first GPU-based solution for pangenome graph layout, achieving an average 57.3× speedup over the state-of-the-art CPU implementation and enabling minute-scale layout of the entire human chromosome dataset; integrated into the pangenome analysis pipeline [ODGI](https://github.com/pangenome/odgi).
+
+*Analysis and Optimization of GNN-Based Recommender Systems on Persistent Memory* — characterized and optimized GNN-based recommender workloads on persistent-memory hardware.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/cornell.svg' | relative_url }}" alt="Cornell University"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**UCLA** &nbsp;·&nbsp; *Jun. 2019 – Sep. 2019*  
+*Research Intern, [VAST Lab](https://vast.cs.ucla.edu/)*  
+*Advisor: [Prof. Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong)*  
+HeteroHalide: An End-to-End Compilation System from Image Processing DSL to Efficient FPGA Acceleration
+
+- Proposed HeteroHalide, an end-to-end compilation system from [Halide](https://halide-lang.org/) to FPGA accelerators, with a Halide-to-HeteroCL code generator and scheduling extensions that emit lower-level primitives at the spatial-architecture backend.
+- Demonstrated that the generated FPGA accelerators outperformed both multi-core CPU baselines and the state-of-the-art Halide-to-FPGA compiler, while significantly reducing migration effort from Halide.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/ucla.svg' | relative_url }}" alt="UCLA"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Tsinghua University** &nbsp;·&nbsp; *Nov. 2018 – Jun. 2019*  
+*Research Assistant, [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn) (Energy Efficient Computing Group)*  
+*Advisor: [Prof. Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang)*  
+Hardware-Friendly Neural Network Training Algorithm Optimization
+
+- Quantified the impact of low-bit-width quantization and neural network pruning on model on GPUs.
+- Applied model distillation for model compression and studied how varying network sizes affect accuracy.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/tsinghua.svg' | relative_url }}" alt="Tsinghua University"></div>
+</div>
+
 
 Industry Experience
 ------
@@ -143,49 +185,7 @@ Micro-architecture Aware Neural Program Embedding
 </div>
 
 
-Academic Research
-------
 
-<div class="exp-entry">
-<div class="exp-text" markdown="1">
-**Cornell University** &nbsp;·&nbsp; *Sep. 2021 – Present*  
-*Ph.D. candidate, [Zhang Research Group](https://zhang.ece.cornell.edu/index.html), [Computer Systems Lab](https://www.csl.cornell.edu/)*  
-*Advisor: [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html)*
-
-*Agentic kernel generation and optimization on heterogeneous devices* — exploring how LLM agents can autonomously generate and tune high-performance kernels across modern accelerators (GPUs, NPUs). 
-
-*Rapid GPU-Based Pangenome Graph Layout* — proposed the first GPU-based solution for pangenome graph layout, achieving an average 57.3× speedup over the state-of-the-art CPU implementation and enabling minute-scale layout of the entire human chromosome dataset; integrated into the pangenome analysis pipeline [ODGI](https://github.com/pangenome/odgi).
-
-*Analysis and Optimization of GNN-Based Recommender Systems on Persistent Memory* — characterized and optimized GNN-based recommender workloads on persistent-memory hardware.
-</div>
-<div class="exp-logo"><img src="{{ '/images/logos/cornell.svg' | relative_url }}" alt="Cornell University"></div>
-</div>
-
-<div class="exp-entry">
-<div class="exp-text" markdown="1">
-**UCLA** &nbsp;·&nbsp; *Jun. 2019 – Sep. 2019*  
-*Research Intern, [VAST Lab](https://vast.cs.ucla.edu/)*  
-*Advisor: [Prof. Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong)*  
-HeteroHalide: An End-to-End Compilation System from Image Processing DSL to Efficient FPGA Acceleration
-
-- Proposed HeteroHalide, an end-to-end compilation system from [Halide](https://halide-lang.org/) to FPGA accelerators, with a Halide-to-HeteroCL code generator and scheduling extensions that emit lower-level primitives at the spatial-architecture backend.
-- Demonstrated that the generated FPGA accelerators outperformed both multi-core CPU baselines and the state-of-the-art Halide-to-FPGA compiler, while significantly reducing migration effort from Halide.
-</div>
-<div class="exp-logo"><img src="{{ '/images/logos/ucla.svg' | relative_url }}" alt="UCLA"></div>
-</div>
-
-<div class="exp-entry">
-<div class="exp-text" markdown="1">
-**Tsinghua University** &nbsp;·&nbsp; *Nov. 2018 – Jun. 2019*  
-*Research Assistant, [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn) (Energy Efficient Computing Group)*  
-*Advisor: [Prof. Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang)*  
-Hardware-Friendly Neural Network Training Algorithm Optimization
-
-- Quantified the impact of low-bit-width quantization and neural network pruning on model on GPUs.
-- Applied model distillation for model compression and studied how varying network sizes affect accuracy.
-</div>
-<div class="exp-logo"><img src="{{ '/images/logos/tsinghua.svg' | relative_url }}" alt="Tsinghua University"></div>
-</div>
 
 
 
