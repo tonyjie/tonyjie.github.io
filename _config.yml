@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jiajie Li"
 title_separator          : "-"
 name                     : &name "Jiajie Li"
-description              : &description "Ph.D. Student in Electrical and Computer Engineering, Cornell University"
+description              : &description "Ph.D. Candidate in Electrical and Computer Engineering, Cornell University"
 url                      : https://tonyjie.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tonyjie.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jiajie Li (李加捷)"
   avatar           : "linkedin_profile.jpeg"
-  bio              : "Ph.D. Student in Electrical and Computer Engineering, Cornell University"
+  bio              : "Ph.D. Candidate in Electrical and Computer Engineering, Cornell University"
   location         : "Ithaca, NY, USA"
   employer         :
   pubmed           : 

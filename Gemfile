@@ -25,3 +25,10 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+# Stdlib gems removed from default load path in Ruby 3.4+, needed for local Jekyll 3.9 preview.
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+gem "webrick"

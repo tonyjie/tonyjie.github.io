@@ -3,49 +3,201 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
+classes: wide
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am currently a fourth year Ph.D. student in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
+I am currently a 5th year Ph.D. candidate in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
 
-My research interests fall on building novel computer systems and supporting heterogeneous computing on novel applications, including computational genomics and machine learning. My recent focus is to leverage the best performance on GPUs. 
+My research focuses on high-performance computing and performance optimization across heterogeneous devices such as GPUs and NPUs, targeting both AI and scientific applications. I am also actively exploring agentic workflows for automating performance engineering and system optimization. 
 
 I received my B.E. from Department of Electronic Engineering, Tsinghua University in 2020. I conducted my undergraduate research in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), advised by Prof. [Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang). During the summer 2019, I was an research intern at UCLA [VAST Lab](https://vast.cs.ucla.edu/), advised by Prof. [Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong). 
 
 
+<style>
+/* Widen the page container and reclaim the reserved right-sidebar space. */
+#main { max-width: 1400px; }
+article.page { padding-right: 24px !important; }
+.page__inner-wrap, .page__content { width: 100% !important; }
+
+.exp-entry {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  margin-bottom: 1.8em;
+}
+.exp-entry .exp-text {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.exp-entry .exp-text > p:first-child { margin-top: 0; }
+.exp-entry .exp-text > *:last-child { margin-bottom: 0; }
+.exp-entry .exp-text ul { margin-top: 0.4em; }
+.exp-entry .exp-logo {
+  width: 110px;
+  flex: 0 0 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exp-entry .exp-logo img {
+  max-width: 100%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 600px) {
+  .exp-entry { gap: 1em; }
+  .exp-entry .exp-logo { width: 70px; flex-basis: 70px; }
+  .exp-entry .exp-logo img { max-height: 56px; }
+}
+</style>
+
 Education
 ------
-- Cornell University
-  - Ph.D. student in Electrical and Computer Engineering, starting from Sep. 2021. 
 
-- Tsinghua University
-  - B.E. in Electronic Engineering, Sep. 2016 to Jun. 2020. 
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Cornell University** &nbsp;·&nbsp; *Sep. 2021 – Present*  
+*Ph.D. candidate in Electrical and Computer Engineering*
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/cornell.svg' | relative_url }}" alt="Cornell University"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Cornell University** &nbsp;·&nbsp; *Sep. 2021 – Dec. 2025*  
+*M.S. in Electrical and Computer Engineering*
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/cornell.svg' | relative_url }}" alt="Cornell University"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Tsinghua University** &nbsp;·&nbsp; *Sep. 2016 – Jun. 2020*  
+*B.E. in Electronic Engineering*
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/tsinghua.svg' | relative_url }}" alt="Tsinghua University"></div>
+</div>
 
 
-Experience
+Industry Experience
 ------
-- ByteDance
-  - Research Scientist Intern in Machine Learning System team in Seed Foundation, Aug 2024 to Dec 2024. 
 
-- NVIDIA
-  - Deep Learning Training Performance Intern in End-to-End Training Performance team (working on [MLPerf-Training](https://mlcommons.org/benchmarks/training/)), May 2024 to Aug 2024. 
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**AMD Research and Advanced Development** &nbsp;·&nbsp; *Jan 2026 – May 2026*  
+*Ph.D. Research Associate, AMD RAD*  
+*Mentors: [Erwei Wang](https://www.linkedin.com/in/erweiwang/), [Samuel Bayliss](https://www.linkedin.com/in/samuel-bayliss-38790614/)*   
+Agent Skill System for End-to-End LLM Deployment on Spatial NPUs 
 
-- Tsinghua University
-  - Research Assistant in [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn), Sep. 2020 to Jun. 2021.
+- Mapped and optimized an LLM end-to-end on the AMD XDNA&trade; NPU, outperforming the existing open-source baseline.
+- Built an agent skill system for automating end-to-end LLM deployment on the AMD XDNA&trade; NPU.
 
-- Alibaba DAMO Academy
-  - Research Intern in [Computing Technology Lab](https://damo.alibaba.com/research-areas?language=en), Jul. 2020 to Jan. 2021. 
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/amd.svg' | relative_url }}" alt="AMD"></div>
+</div>
 
-- UCLA
-  - Research Intern in [VAST Lab](https://vast.cs.ucla.edu/), Jun. 2019 to Sep. 2019. 
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**ByteDance** &nbsp;·&nbsp; *Aug 2024 – Dec 2024*  
+*Research Scientist Intern, Machine Learning System team, Seed Foundation*  
+*Mentors: [Wenlei Bao](https://www.linkedin.com/in/wenlei-bao-95064b58/), [Li-Wen Chang](https://lchang20.github.io/)*  
+Benchmarking Optimized LLM Kernels 
+
+- Benchmarked LLM kernels across cuBLAS, Triton, and CUTLASS over different problem sizes, data types, and GPU architectures. 
+- Gained insights into low-level optimizations, particularly warp specialization with TMA on Hopper GPUs.
+
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/bytedance.svg' | relative_url }}" alt="ByteDance"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**NVIDIA** &nbsp;·&nbsp; *May 2024 – Aug 2024*  
+*Deep Learning Training Performance Intern, End-to-End Training Performance team* (working on [MLPerf-Training](https://mlcommons.org/benchmarks/training/))  
+*Mentors: [Rachit Garg](https://www.linkedin.com/in/rachitgarg91/), [Burc Eryilmaz](https://www.linkedin.com/in/%C5%9F-bur%C3%A7-eryilmaz-75ab9919/)*  
+LLM Training Toolbox: Memory Footprint Analyzer & Config-Shmooer
+
+- Built a memory footprint analyzer for peak-memory debugging and leak detection in LLM training, integrated into [NeMo](https://github.com/NVIDIA-NeMo/NeMo) and the MLPerf training pipeline.
+- Built an autotuner that searches the large training config space (TP/PP/CP sizes, TP overlapping configs, etc.) for the best setup given a model and hardware. 
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/nvidia.svg' | relative_url }}" alt="NVIDIA"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Alibaba DAMO Academy** &nbsp;·&nbsp; *Jul. 2020 – Jan. 2021*  
+*Research Intern, [Computing Technology Lab](https://damo.alibaba.com/research-areas?language=en)*  
+*Mentor: [Yuanwei Fang](https://www.linkedin.com/in/yuanwei-fang-1066493a/)*  
+Micro-architecture Aware Neural Program Embedding
+
+- Proposed Neural Program Sampling (NPS), a novel framework that provides high-resolution execution embeddings for accurate program sampling.
+- Built the NPS-gem5 evaluation testbed by enhancing gem5 to report detailed-simulation statistics at specific instruction intervals, enabling fast and flexible simulation.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/alibaba.svg' | relative_url }}" alt="Alibaba"></div>
+</div>
+
+
+Academic Research
+------
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Cornell University** &nbsp;·&nbsp; *Sep. 2021 – Present*  
+*Ph.D. candidate, [Zhang Research Group](https://zhang.ece.cornell.edu/index.html), [Computer Systems Lab](https://www.csl.cornell.edu/)*  
+*Advisor: [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html)*
+
+*Agentic kernel generation and optimization on heterogeneous devices* — exploring how LLM agents can autonomously generate and tune high-performance kernels across modern accelerators (GPUs, NPUs). 
+
+*Rapid GPU-Based Pangenome Graph Layout* — proposed the first GPU-based solution for pangenome graph layout, achieving an average 57.3× speedup over the state-of-the-art CPU implementation and enabling minute-scale layout of the entire human chromosome dataset; integrated into the pangenome analysis pipeline [ODGI](https://github.com/pangenome/odgi).
+
+*Analysis and Optimization of GNN-Based Recommender Systems on Persistent Memory* — characterized and optimized GNN-based recommender workloads on persistent-memory hardware.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/cornell.svg' | relative_url }}" alt="Cornell University"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**UCLA** &nbsp;·&nbsp; *Jun. 2019 – Sep. 2019*  
+*Research Intern, [VAST Lab](https://vast.cs.ucla.edu/)*  
+*Advisor: [Prof. Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong)*  
+HeteroHalide: An End-to-End Compilation System from Image Processing DSL to Efficient FPGA Acceleration
+
+- Proposed HeteroHalide, an end-to-end compilation system from [Halide](https://halide-lang.org/) to FPGA accelerators, with a Halide-to-HeteroCL code generator and scheduling extensions that emit lower-level primitives at the spatial-architecture backend.
+- Demonstrated that the generated FPGA accelerators outperformed both multi-core CPU baselines and the state-of-the-art Halide-to-FPGA compiler, while significantly reducing migration effort from Halide.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/ucla.svg' | relative_url }}" alt="UCLA"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Tsinghua University** &nbsp;·&nbsp; *Nov. 2018 – Jun. 2019*  
+*Research Assistant, [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn) (Energy Efficient Computing Group)*  
+*Advisor: [Prof. Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang)*  
+Hardware-Friendly Neural Network Training Algorithm Optimization
+
+- Quantified the impact of low-bit-width quantization and neural network pruning on model on GPUs.
+- Applied model distillation for model compression and studied how varying network sizes affect accuracy.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/tsinghua.svg' | relative_url }}" alt="Tsinghua University"></div>
+</div>
+
+
+
 
 Publications
 -----
 HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2506.07972) [<i class="fab fa-github fa-lg"></i>](https://github.com/cornell-zhang/heurigym) \
-Hongzheng Chen, Yingheng Wang, Yaohui Cai, Hins Hu, **Jiajie Li**, Shirley Huang, Chenhui Deng, Rongjian Liang, Shufeng Kong, Haoxing Ren, Samitha Samaranayake, Carla P. Gomes, Zhiru Zhang. \
-**[arXiv'25]**. arXiv:2506.07972, 2025. 
+Hongzheng Chen\*, Yingheng Wang\*, Yaohui Cai\*, Hins Hu\*, **Jiajie Li**\*, Shirley Huang, Chenhui Deng, Rongjian Liang, Shufeng Kong, Haoxing Ren, Samitha Samaranayake, Carla P. Gomes, Zhiru Zhang. (\*core contributors) \
+**[ICLR'26]**. The International Conference on Learning Representations, 2026. 
+
+Dato: A Task-Based Programming Model for Dataflow Accelerators [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2509.06794) \
+Shihan Fang, Hongzheng Chen, Niansong Zhang, **Jiajie Li**, Han Meng, Adrian Liu, Zhiru Zhang. \
+arXiv:2509.06794, 2025. 
 
 Rapid GPU-Based Pangenome Graph Layout [<i class="fas fa-file-pdf fa-lg"></i>](https://dl-acm-org.proxy.library.cornell.edu/doi/pdf/10.1109/SC41406.2024.00035) [<i class="fab fa-github fa-lg"></i>](https://github.com/pangenome/odgi) \
 **Jiajie Li**, Jan-Niklas Schmelzle, Yixiao Du, Simon Heumos, Andrea Guarracino, Giulia Guidi, Pjotr Prins, Erik Garrison, Zhiru Zhang. \
@@ -70,9 +222,13 @@ HeteroHalide: From Image Processing DSL to Efficient FPGA Acceleration [<i class
 
 Teaching
 -----
-- Teaching Assistant of ECE2300 Digital Logic and Computer Organization, Fall 2023. 
+**Cornell University** &nbsp;·&nbsp; *Aug. 2023 – Dec. 2023*  
+*Teaching Assistant, ECE 2300 Digital Logic and Computer Organization*
 
 
 Services
 -----
-- Student Volunteer: [FCCM'22](https://www.fccm.org/past/2022/volunteer-2022/)
+Student Volunteer at [FCCM'22](https://www.fccm.org/past/2022/volunteer-2022/)
+
+<hr style="margin-top: 3em; border: none; border-top: 1px solid #eee;">
+<p style="text-align: center; color: #888; font-size: 0.85em; margin-top: 1em;"><em>Last updated: {{ site.time | date: "%B %Y" }}</em></p>
