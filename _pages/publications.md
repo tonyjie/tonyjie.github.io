@@ -9,7 +9,7 @@ author_profile: true
 **Jiajie Li**, Erwei Wang, Zhiru Zhang, Samuel Bayliss. \
 **[MLArchSys'26]**. Workshop on ML for Computer Architecture and Systems, co-located with ISCA 2026.
 
-## Deploying SmolVLA Model on an AMD XDNA NPU
+## Deploying SmolVLA Model on an AMD XDNA NPU [<i class="fas fa-file-pdf fa-lg"></i>](https://ieeexplore.ieee.org/abstract/document/11552718)
 Xiaoyu Liang, Elaine Cao, Chun-Ning Kao, David Lin, **Jiajie Li**, Zhiru Zhang. \
 **[FCCM'26]**. The International Symposium on Field-Programmable Custom Computing Machines, 2026.
 
