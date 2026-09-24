@@ -135,10 +135,10 @@ Industry Experience
 **AMD Research and Advanced Development** &nbsp;·&nbsp; *Jan 2026 – Present*  
 *Ph.D. Research Associate, AMD RAD*  
 *Mentors: [Erwei Wang](https://www.linkedin.com/in/erweiwang/), [Samuel Bayliss](https://www.linkedin.com/in/samuel-bayliss-38790614/)*   
-Agent Skill System for End-to-End LLM Deployment on Spatial NPUs 
+Agentic System for End-to-End LLM Deployment on Spatial NPUs 
 
+- Built an agentic system on top of the open-source MLIR-AIR compiler flow to deploy and optimize LLMs end-to-end on the AMD XDNA&trade; NPU.
 - Mapped and optimized an LLM end-to-end on the AMD XDNA&trade; NPU, outperforming the existing open-source baseline.
-- Built an agent skill system for automating end-to-end LLM deployment on the AMD XDNA&trade; NPU.
 - Built a decode megakernel on the NPU to enable DFlash speculative decoding, achieving a 2× decode speedup over a production-grade autoregressive decoding megakernel.
 
 </div>
