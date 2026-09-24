@@ -139,6 +139,7 @@ Agent Skill System for End-to-End LLM Deployment on Spatial NPUs
 
 - Mapped and optimized an LLM end-to-end on the AMD XDNA&trade; NPU, outperforming the existing open-source baseline.
 - Built an agent skill system for automating end-to-end LLM deployment on the AMD XDNA&trade; NPU.
+- Built a decode megakernel on the NPU to enable DFlash speculative decoding, achieving a 2× decode speedup over a production-grade autoregressive decoding megakernel.
 
 </div>
 <div class="exp-logo"><img src="{{ '/images/logos/amd.svg' | relative_url }}" alt="AMD"></div>
@@ -216,6 +217,10 @@ Simon Heumos, Andrea Guarracino, Jan-Niklas M Schmelzle, **Jiajie Li**, Zhiru Zh
 HeteroHalide: From Image Processing DSL to Efficient FPGA Acceleration [<i class="fas fa-file-pdf fa-lg"></i>](https://dl.acm.org/doi/pdf/10.1145/3373087.3375320) [<i class="fab fa-github fa-lg"></i>](https://github.com/UCLA-VAST/heterohalide)\
 **Jiajie Li**, Yuze Chi, Jason Cong. \
 **[FPGA'20]**. _28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, 2020_.
+
+Programming AMD XDNA NPUs with Open-source Compiler Tools: A FlashAttention Case Study [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2609.21264) \
+Erwei Wang, Ephrem Wu, Victor J. B. Jung, **Jiajie Li**, Andre Rosti, Joseph Melber, Samuel Bayliss. \
+arXiv:2609.21264, 2026. 
 
 Dato: A Task-Based Programming Model for Dataflow Accelerators [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2509.06794) \
 Shihan Fang, Hongzheng Chen, Niansong Zhang, **Jiajie Li**, Han Meng, Adrian Liu, Zhiru Zhang. \

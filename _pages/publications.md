@@ -33,6 +33,10 @@ Simon Heumos, Andrea Guarracino, Jan-Niklas Schmelzle, **Jiajie Li**, Zhiru Zhan
 **[FPGA'20]**. _28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, 2020_.
 
 
+## Programming AMD XDNA NPUs with Open-source Compiler Tools: A FlashAttention Case Study [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2609.21264)
+Erwei Wang, Ephrem Wu, Victor J. B. Jung, **Jiajie Li**, Andre Rosti, Joseph Melber, Samuel Bayliss. \
+arXiv:2609.21264, 2026. 
+
 ## Dato: A Task-Based Programming Model for Dataflow Accelerators [<i class="fas fa-file-pdf fa-lg"></i>](https://arxiv.org/pdf/2509.06794)
 Shihan Fang, Hongzheng Chen, Niansong Zhang, **Jiajie Li**, Han Meng, Adrian Liu, Zhiru Zhang. \
 arXiv:2509.06794, 2025.
