@@ -13,7 +13,7 @@ I am currently a final-year Ph.D. candidate in the Department of Electrical and 
 
 My research focuses on high-performance computing and performance optimization across heterogeneous devices such as GPUs and NPUs, targeting both AI and scientific applications. I am also actively exploring agentic workflows for automating performance engineering and system optimization. 
 
-**I am on the industry job market for full-time positions starting in 2027.**
+**I am seeking full-time industry positions starting in 2027.**
 
 
 <style>
