@@ -9,9 +9,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 5th year Ph.D. candidate in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
+I am currently a final-year Ph.D. candidate in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
 
 My research focuses on high-performance computing and performance optimization across heterogeneous devices such as GPUs and NPUs, targeting both AI and scientific applications. I am also actively exploring agentic workflows for automating performance engineering and system optimization. 
+
+**I am on the industry job market for full-time positions starting in 2027.**
 
 
 <style>
@@ -82,6 +84,62 @@ Education
 <div class="exp-logo"><img src="{{ '/images/logos/tsinghua.svg' | relative_url }}" alt="Tsinghua University"></div>
 </div>
 
+Industry Experience
+------
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**AMD Research and Advanced Development** &nbsp;·&nbsp; *Jan 2026 – Present*  
+*Ph.D. Research Associate, AMD RAD*  
+*Mentors: [Erwei Wang](https://www.linkedin.com/in/erweiwang/), [Samuel Bayliss](https://www.linkedin.com/in/samuel-bayliss-38790614/)*  
+An Agentic System for Efficient LLM Deployment on AIE NPUs
+
+- Built an agentic system that guides coding agents through kernel development and model composition for end-to-end LLM deployment on AMD XDNA&trade; 2 NPUs, combining a kernel database, reusable NPU engineering skills, and staged feedback on top of the open-source [MLIR-AIR](https://github.com/Xilinx/mlir-air) compiler flow. An early version was accepted by MLArchSys (co-located with ISCA 2026).
+- Autonomously deployed multiple previously unsupported LLMs end-to-end, achieving significant energy-efficiency gains over an iGPU baseline and large prefill and decode speedups over the coding agent alone, with less agent time and lower API cost.
+- Extended single-token decode megakernels to support DFlash speculative decoding through the agentic workflow, outperforming FastFlowLM's production autoregressive decoding.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/amd.svg' | relative_url }}" alt="AMD"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**ByteDance** &nbsp;·&nbsp; *Aug 2024 – Dec 2024*  
+*Research Scientist Intern, Machine Learning System team, Seed Foundation*  
+*Mentors: [Wenlei Bao](https://www.linkedin.com/in/wenlei-bao-95064b58/), [Li-Wen Chang](https://lchang20.github.io/)*  
+Characterizing High-Performance LLM Kernels on NVIDIA GPUs
+
+- Benchmarked GEMM and grouped GEMM across cuBLAS, Triton, and CUTLASS over a range of problem sizes, data types, and GPU architectures, using the CUTLASS profiler and Triton autotuning to find each library's best configuration.
+- Identified warp specialization combined with the Tensor Memory Accelerator (TMA) on Hopper GPUs as the key to reaching peak performance, and analyzed why this design lets kernels overlap data movement with Tensor Core computation.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/bytedance.svg' | relative_url }}" alt="ByteDance"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**NVIDIA** &nbsp;·&nbsp; *May 2024 – Aug 2024*  
+*Deep Learning Training Performance Intern, End-to-End Training Performance team* (working on [MLPerf-Training](https://mlcommons.org/benchmarks/training/))  
+*Mentors: [Rachit Garg](https://www.linkedin.com/in/rachitgarg91/), [Burc Eryilmaz](https://www.linkedin.com/in/%C5%9F-bur%C3%A7-eryilmaz-75ab9919/)*  
+LLM Training Toolbox: Memory Footprint Analyzer & Configuration Autotuner
+
+- Built a memory footprint analyzer that collects and analyzes memory snapshots for peak-memory debugging and memory-leak detection in LLM training, and integrated it into [NeMo](https://github.com/NVIDIA-NeMo/NeMo) and the MLPerf training pipeline; the tool helped teammates debug memory issues with CUDA Graphs.
+- Built an autotuner that searches the large training-configuration space (TP, PP, CP sizes, TP-overlap configs, etc.) for the best setup given a model and hardware, delivering a 1.1% end-to-end speedup over the heavily hand-tuned MLPerf submission config.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/nvidia.svg' | relative_url }}" alt="NVIDIA"></div>
+</div>
+
+<div class="exp-entry">
+<div class="exp-text" markdown="1">
+**Alibaba DAMO Academy** &nbsp;·&nbsp; *Jul. 2020 – Jan. 2021*  
+*Research Intern, [Computing Technology Lab](https://damo.alibaba.com/research-areas?language=en)*  
+*Mentor: [Yuanwei Fang](https://www.linkedin.com/in/yuanwei-fang-1066493a/)*  
+Neural Program Sampling for Fast Microarchitecture Simulation
+
+- Contributed to Neural Program Sampling (NPS), a GNN-based framework that learns execution embeddings from code structure and runtime state to select representative program intervals for simulation, outperforming SimPoint by up to 63%.
+- Built the NPS-gem5 evaluation testbed by extending gem5 to emit detailed-simulation statistics at specified instruction intervals, enabling fast and flexible evaluation of sampling accuracy.
+</div>
+<div class="exp-logo"><img src="{{ '/images/logos/alibaba.svg' | relative_url }}" alt="Alibaba"></div>
+</div>
+
 Academic Research
 ------
 
@@ -91,11 +149,13 @@ Academic Research
 *Ph.D. candidate, [Zhang Research Group](https://zhang.ece.cornell.edu/index.html), [Computer Systems Lab](https://www.csl.cornell.edu/)*  
 *Advisor: [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html)*
 
-*Agentic kernel generation and optimization on heterogeneous devices* — exploring how LLM agents can autonomously generate and tune high-performance kernels across modern accelerators (GPUs, NPUs). 
+*Agentic Kernel Generation Across Hardware Targets* — prototyped an LLM agentic workflow that generates and tunes kernels for CPUs, GPUs, and the AMD AI Engine through a feedback loop of correctness checking, error debugging, and iterative optimization, laying the foundation for the agentic NPU deployment system developed at AMD.
 
-*Rapid GPU-Based Pangenome Graph Layout* — proposed the first GPU-based solution for pangenome graph layout, achieving an average 57.3× speedup over the state-of-the-art CPU implementation and enabling minute-scale layout of the entire human chromosome dataset; integrated into the pangenome analysis pipeline [ODGI](https://github.com/pangenome/odgi).
+*HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization* — co-developed an open-source agentic benchmark (ICLR'26) in which LLMs iteratively write, execute, and refine heuristics for nine combinatorial optimization problems, with a continuously updated [public leaderboard](https://cornell-zhang.github.io/heurigym/); contributed the technology-mapping problem from the EDA domain, which remains among the hardest problems in the suite.
 
-*Analysis and Optimization of GNN-Based Recommender Systems on Persistent Memory* — characterized and optimized GNN-based recommender workloads on persistent-memory hardware.
+*Rapid GPU-Based Pangenome Graph Layout* — developed the first GPU implementation of path-guided SGD for pangenome graph layout, achieving a 57.3× average speedup over a 32-thread CPU baseline and reducing layout time for 24 human whole-chromosome pangenomes from hours to minutes without quality loss (SC'24); integrated into the pangenome analysis toolkit [ODGI](https://github.com/pangenome/odgi).
+
+*Analysis and Optimization of GNN-Based Recommender Systems on Persistent Memory* — showed that Intel Optane persistent memory enables single-machine training of GNN-based recommender systems on billion-edge graphs, outperforming distributed training by over 30× for deep GNN models at less than half the memory cost; built and tuned the DistDGL distributed training baseline.
 </div>
 <div class="exp-logo"><img src="{{ '/images/logos/cornell.svg' | relative_url }}" alt="Cornell University"></div>
 </div>
@@ -107,8 +167,8 @@ Academic Research
 *Advisor: [Prof. Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong)*  
 HeteroHalide: An End-to-End Compilation System from Image Processing DSL to Efficient FPGA Acceleration
 
-- Proposed HeteroHalide, an end-to-end compilation system from [Halide](https://halide-lang.org/) to FPGA accelerators, with a Halide-to-HeteroCL code generator and scheduling extensions that emit lower-level primitives at the spatial-architecture backend.
-- Demonstrated that the generated FPGA accelerators outperformed both multi-core CPU baselines and the state-of-the-art Halide-to-FPGA compiler, while significantly reducing migration effort from Halide.
+- Proposed HeteroHalide, an end-to-end compilation flow from [Halide](https://halide-lang.org/) to FPGA accelerators, including a Halide-to-HeteroCL code generator in C++ and scheduling extensions that emit lower-level primitives at the spatial-architecture backend. The work was accepted by FPGA'20.
+- Showed that the generated accelerators outperform both a 28-core CPU (4.15× speedup, 11.7× energy efficiency) and the state-of-the-art Halide-to-FPGA compiler (2–4× throughput), while requiring only moderate changes to Halide schedules.
 </div>
 <div class="exp-logo"><img src="{{ '/images/logos/ucla.svg' | relative_url }}" alt="UCLA"></div>
 </div>
@@ -118,77 +178,12 @@ HeteroHalide: An End-to-End Compilation System from Image Processing DSL to Effi
 **Tsinghua University** &nbsp;·&nbsp; *Nov. 2018 – Jun. 2019*  
 *Research Assistant, [NICS-EFC Lab](http://nicsefc.ee.tsinghua.edu.cn) (Energy Efficient Computing Group)*  
 *Advisor: [Prof. Yu Wang](https://nicsefc.ee.tsinghua.edu.cn/people/YuWang)*  
-Hardware-Friendly Neural Network Training Algorithm Optimization
+Hardware-Friendly Neural Network Compression
 
-- Quantified the impact of low-bit-width quantization and neural network pruning on model on GPUs.
-- Applied model distillation for model compression and studied how varying network sizes affect accuracy.
+- Studied hardware-friendly model compression for efficient deployment, quantifying how low-bit quantization, pruning, and knowledge distillation trade off model size against accuracy.
 </div>
 <div class="exp-logo"><img src="{{ '/images/logos/tsinghua.svg' | relative_url }}" alt="Tsinghua University"></div>
 </div>
-
-
-Industry Experience
-------
-
-<div class="exp-entry">
-<div class="exp-text" markdown="1">
-**AMD Research and Advanced Development** &nbsp;·&nbsp; *Jan 2026 – Present*  
-*Ph.D. Research Associate, AMD RAD*  
-*Mentors: [Erwei Wang](https://www.linkedin.com/in/erweiwang/), [Samuel Bayliss](https://www.linkedin.com/in/samuel-bayliss-38790614/)*   
-Agentic System for End-to-End LLM Deployment on Spatial NPUs 
-
-- Built an agentic system on top of the open-source MLIR-AIR compiler flow to deploy and optimize LLMs end-to-end on the AMD XDNA&trade; NPU.
-- Mapped and optimized an LLM end-to-end on the AMD XDNA&trade; NPU, outperforming the existing open-source baseline.
-- Built a decode megakernel on the NPU to enable DFlash speculative decoding, achieving a 2× decode speedup over a production-grade autoregressive decoding megakernel.
-
-</div>
-<div class="exp-logo"><img src="{{ '/images/logos/amd.svg' | relative_url }}" alt="AMD"></div>
-</div>
-
-<div class="exp-entry">
-<div class="exp-text" markdown="1">
-**ByteDance** &nbsp;·&nbsp; *Aug 2024 – Dec 2024*  
-*Research Scientist Intern, Machine Learning System team, Seed Foundation*  
-*Mentors: [Wenlei Bao](https://www.linkedin.com/in/wenlei-bao-95064b58/), [Li-Wen Chang](https://lchang20.github.io/)*  
-Benchmarking Optimized LLM Kernels 
-
-- Benchmarked LLM kernels across cuBLAS, Triton, and CUTLASS over different problem sizes, data types, and GPU architectures. 
-- Gained insights into low-level optimizations, particularly warp specialization with TMA on Hopper GPUs.
-
-</div>
-<div class="exp-logo"><img src="{{ '/images/logos/bytedance.svg' | relative_url }}" alt="ByteDance"></div>
-</div>
-
-<div class="exp-entry">
-<div class="exp-text" markdown="1">
-**NVIDIA** &nbsp;·&nbsp; *May 2024 – Aug 2024*  
-*Deep Learning Training Performance Intern, End-to-End Training Performance team* (working on [MLPerf-Training](https://mlcommons.org/benchmarks/training/))  
-*Mentors: [Rachit Garg](https://www.linkedin.com/in/rachitgarg91/), [Burc Eryilmaz](https://www.linkedin.com/in/%C5%9F-bur%C3%A7-eryilmaz-75ab9919/)*  
-LLM Training Toolbox: Memory Footprint Analyzer & Config-Shmooer
-
-- Built a memory footprint analyzer for peak-memory debugging and leak detection in LLM training, integrated into [NeMo](https://github.com/NVIDIA-NeMo/NeMo) and the MLPerf training pipeline.
-- Built an autotuner that searches the large training config space (TP/PP/CP sizes, TP overlapping configs, etc.) for the best setup given a model and hardware. 
-</div>
-<div class="exp-logo"><img src="{{ '/images/logos/nvidia.svg' | relative_url }}" alt="NVIDIA"></div>
-</div>
-
-<div class="exp-entry">
-<div class="exp-text" markdown="1">
-**Alibaba DAMO Academy** &nbsp;·&nbsp; *Jul. 2020 – Jan. 2021*  
-*Research Intern, [Computing Technology Lab](https://damo.alibaba.com/research-areas?language=en)*  
-*Mentor: [Yuanwei Fang](https://www.linkedin.com/in/yuanwei-fang-1066493a/)*  
-Micro-architecture Aware Neural Program Embedding
-
-- Proposed Neural Program Sampling (NPS), a novel framework that provides high-resolution execution embeddings for accurate program sampling.
-- Built the NPS-gem5 evaluation testbed by enhancing gem5 to report detailed-simulation statistics at specific instruction intervals, enabling fast and flexible simulation.
-</div>
-<div class="exp-logo"><img src="{{ '/images/logos/alibaba.svg' | relative_url }}" alt="Alibaba"></div>
-</div>
-
-
-
-
-
 
 
 Publications
@@ -246,7 +241,7 @@ Teaching & Services
 **Cornell University** &nbsp;·&nbsp; *Aug. 2023 – Dec. 2023*  
 *Teaching Assistant, ECE 2300 Digital Logic and Computer Organization*
 
-Reviewer: IEEE TCAD (2025); MLArchSys @ ISCA 2026; MATH-AI @ NeurIPS 2025; RCC @ FCCM 2026  
+Reviewer: IEEE TCAD (2025); MLArchSys @ ISCA 2026; MATH-AI @ NeurIPS 2025, 2026; RCC @ FCCM 2026  
 Student Volunteer at [FCCM'22](https://www.fccm.org/past/2022/volunteer-2022/)
 
 <hr style="margin-top: 3em; border: none; border-top: 1px solid #eee;">
