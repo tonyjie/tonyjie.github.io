@@ -11,7 +11,7 @@ redirect_from:
 
 I am currently a final-year Ph.D. candidate in the Department of Electrical and Computer Engineering, Cornell University @ [Computer System Lab](https://www.csl.cornell.edu/), advised by Prof. [Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html). 
 
-My research focuses on high-performance computing and performance optimization across heterogeneous devices such as GPUs and NPUs, targeting both AI and scientific applications. I am also actively exploring agentic workflows for automating performance engineering and system optimization. 
+My research focuses on performance optimization for AI and scientific workloads on heterogeneous hardware, from GPU kernels to spatial accelerators such as NPUs, spanning kernel optimization, compilers, and system-level tuning. Most recently, I have been building agentic systems that automate this performance engineering, equipping coding agents with expert hardware knowledge to bring new LLMs and inference algorithms onto AI accelerators.
 
 **I am seeking full-time industry positions starting in 2027.**
 
