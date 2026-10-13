@@ -27,7 +27,7 @@ Each institutional entry uses a flex layout defined inline at the top of `_pages
 
 - `markdown="1"` is **required** on the inner div so Kramdown processes the markdown inside the HTML block.
 - Project title is wrapped in `<span class="exp-project">` (semibold, styled in the inline `<style>` block); institution is bold, dates and role are italic (rendered muted grey).
-- Cornell PhD entry uses a themed grouping instead of per-project blocks because there are many projects: one paragraph per project, starting with `<span class="exp-project">Title</span> — ...`.
+- Cornell PhD entry groups several projects under one institution header: each project is a `<span class="exp-project">Title</span>` line followed by a blank line and its bullets.
 
 ### Logos
 

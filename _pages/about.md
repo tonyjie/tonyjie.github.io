@@ -39,8 +39,8 @@ article.page { padding-right: 24px !important; }
 .exp-entry .exp-text > p { margin-bottom: 0.5em; }
 .exp-entry .exp-text > p:first-child em { color: #6b7280; font-size: 0.95em; }
 .exp-entry .exp-text .exp-project { display: inline-block; margin-top: 0.35em; font-weight: 600; color: #1f2937; }
-.exp-entry .exp-text > p + p { font-size: 0.92em; line-height: 1.55; }
-.exp-entry .exp-text > p + p .exp-project { margin-top: 0; font-size: 1.05em; }
+.exp-entry .exp-text ul + p { margin-top: 0.9em; }
+.exp-entry .exp-text > p + p { margin-bottom: 0; }
 .exp-entry .exp-logo {
   width: 110px;
   flex: 0 0 110px;
@@ -155,13 +155,25 @@ Academic Research
 *Ph.D. candidate, [Zhang Research Group](https://zhang.ece.cornell.edu/index.html), [Computer Systems Lab](https://www.csl.cornell.edu/)*  
 *Advisor: [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/index.html)*
 
-<span class="exp-project">Agentic Kernel Generation Across Hardware Targets</span> — prototyped an LLM agentic workflow that generates and tunes kernels for CPUs, GPUs, and the AMD AI Engine through a feedback loop of correctness checking, error debugging, and iterative optimization, laying the foundation for the agentic NPU deployment system developed at AMD.
+<span class="exp-project">Agentic Kernel Generation Across Hardware Targets</span>
 
-<span class="exp-project">HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization</span> — co-developed an open-source agentic benchmark (ICLR'26) in which LLMs iteratively write, execute, and refine heuristics for nine combinatorial optimization problems, with a continuously updated [public leaderboard](https://cornell-zhang.github.io/heurigym/); contributed the technology-mapping problem from the EDA domain, which remains among the hardest problems in the suite.
+- Prototyped an LLM agentic workflow that generates and tunes kernels for CPUs, GPUs, and the AMD AI Engine through a feedback loop of correctness checking, error debugging, and iterative optimization, grounded in curated AI Engine API documentation; this work laid the foundation for the agentic NPU deployment system developed at AMD.
 
-<span class="exp-project">Rapid GPU-Based Pangenome Graph Layout</span> — developed the first GPU implementation of path-guided SGD for pangenome graph layout, achieving a 57.3× average speedup over a 32-thread CPU baseline and reducing layout time for 24 human whole-chromosome pangenomes from hours to minutes without quality loss (SC'24); integrated into the pangenome analysis toolkit [ODGI](https://github.com/pangenome/odgi).
+<span class="exp-project">HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization</span>
 
-<span class="exp-project">Analysis and Optimization of GNN-Based Recommender Systems on Persistent Memory</span> — showed that Intel Optane persistent memory enables single-machine training of GNN-based recommender systems on billion-edge graphs, outperforming distributed training by over 30× for deep GNN models at less than half the memory cost; built and tuned the DistDGL distributed training baseline.
+- Co-developed HeuriGym (ICLR'26, core contributor), an open-source agentic benchmark in which LLMs iteratively write, execute, and refine heuristics for nine combinatorial optimization problems, with a continuously updated [public leaderboard](https://cornell-zhang.github.io/heurigym/).
+- Contributed the technology-mapping problem from the electronic design automation (EDA) domain, including its formalization and expert solution; it remains among the hardest problems in the suite, where even the latest frontier models score lowest.
+
+<span class="exp-project">Rapid GPU-Based Pangenome Graph Layout</span>
+
+- Developed the first GPU implementation of path-guided SGD for pangenome graph layout, achieving a 57.3× average speedup on an NVIDIA A100 over a 32-thread CPU baseline and reducing layout time for 24 human whole-chromosome pangenomes from hours to minutes without quality loss. The work was accepted by SC'24 and integrated into the [ODGI](https://github.com/pangenome/odgi) pangenome analysis toolkit.
+- Characterized the workload as memory-bound with highly irregular access patterns, then designed CUDA optimizations including a cache-friendly data layout, coalesced random-number-generator states, and warp merging to reduce branch divergence.
+- Proposed sampled path stress, a sampling-based layout-quality metric that reduces evaluation cost from quadratic to linear time complexity, and used it to explore performance-quality trade-offs, gaining a further 1.5× speedup via warp-level data reuse.
+
+<span class="exp-project">Analysis and Optimization of GNN-Based Recommender Systems on Persistent Memory</span>
+
+- Showed that Intel Optane persistent memory enables single-machine training of GNN-based recommender systems on billion-edge graphs, outperforming distributed training by over 30× for deep GNN models at less than half the memory cost.
+- Built and tuned the distributed training baseline with DistDGL on a six-server CPU cluster, running NGCF and LightGCN on graphs with up to one billion edges for an end-to-end comparison against single-machine Optane training.
 </div>
 <div class="exp-logo"><img src="{{ '/images/logos/cornell.svg' | relative_url }}" alt="Cornell University"></div>
 </div>
